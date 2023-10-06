@@ -1,0 +1,21 @@
+
+.grid-container {
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+}
+
+.grid-container .content1 {
+  display: block;
+}
+
+.grid-container .content2 {
+  display: none;
+}
+
+.toggle2:checked ~ .grid-container .content1 {
+  display: none;
+}
+
+.toggle2:checked ~ .grid-container .content2 {
+  display: block;
+}

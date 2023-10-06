@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework pt1</title>
+
+    <link rel="stylesheet" href="./styles/layout.css" />
+    <link rel="stylesheet" href="./styles/form.css" />
+    <link rel="stylesheet" href="./styles/input.css" />
+    <link rel="stylesheet" href="./styles/toggle.css" />
+</head>
+
+<body>
+    <form class="my-form" action="/" method="GET">
+
+        <input type=radio id="toggle1" value="one" name="toggle" class="toggle1">
+        <label for="toggle1">első</label>
+        <div class="separator"></div>
+
+        <input type=radio id="toggle2" value="two" name="toggle" class="toggle2">
+        <label for="toggle2">második</label>
+        <div class="separator"></div>
+
+        <input type=radio id="toggle3" value="three" name="toggle" class="toggle1">
+        <label for="toggle3">harmadik</label>
+        <div class="separator"></div>
+
+        <div class="grid-container">
+            <div class="tab content1">
+                <button type="submit" class="btn-disabled" disabled>
+                    Submit
+                </button>
+            </div>
+
+            <div class="tab content2">
+                <button type="submit" class="btn-enabled">
+                    Submit
+                </button>
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>
